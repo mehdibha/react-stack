@@ -39,6 +39,7 @@
     "**/*.js",
     ".next/types/**/*.ts",
     ".contentlayer/generated",
+    "content/sections/Introduction.mdx",
   ],
   "exclude": ["node_modules"],
 }

@@ -2,19 +2,21 @@ import { FacebookIcon, GithubIcon, MailIcon } from "lucide-react";
 
 export const siteConfig = {
   global: {
-    url: "https://vapi.tn",
-    name: "Vapi",
+    url: "https://reactstack.dev",
+    name: "ReactStack",
     logo: "/images/logo.png",
-    title: "Vapi - Première marketplace de vente de cigarettes électroniques en Tunisie.",
+    title: "ReactStack - the React ecosystem you need to know",
     description:
-      "Vapi, site de cigarette électronique, vous donne accès à la communeauté Vape In Tunisia. Vous avez également la possibilité de faire l'achat de vos cigarettes électroniques en ligne.",
+      "Don't get loss in the React ecosystem. ReactStack is a curated list of tools and resources to learn and build React apps.",
     keywords: [
-      "vape jetable tunisie",
-      "vape jetable",
-      "vapoter tunisie",
-      "vape tunsie",
-      "cigarette électronique tunisie",
-      "vape",
+      "react",
+      "reactjs",
+      "react stack",
+      "react resources",
+      "react tools",
+      "react libraries",
+      "react tutorials",
+      "react ecosystem",
     ],
     authors: [
       {
@@ -36,9 +38,7 @@ export const siteConfig = {
   header: {
     nav: {
       links: [
-        { href: "/", label: "Communauté" },
-        { href: "/marketplace", label: "Marketplace" },
-        { href: "/vape-stores", label: "Vape stores" },
+        { href: "/front-end", label: "Front-end" },
       ],
     },
     cta: {

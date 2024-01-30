@@ -18,7 +18,7 @@ export const Header = () => {
     <header className="sticky top-0 z-50 border-b bg-card text-card-foreground shadow-sm">
       <div className="container mx-auto flex h-12 w-full max-w-[1400px] items-center justify-between py-2">
         <div className="flex justify-start md:w-[200px]">
-          <Link href="/" className="duration-150 hover:opacity-80">
+          {/* <Link href="/" className="duration-150 hover:opacity-80">
             <Image
               src={siteConfig.global.logo}
               alt={siteConfig.global.name}
@@ -26,7 +26,7 @@ export const Header = () => {
               height={56}
               className="h-[28px] w-[56px] object-contain"
             />
-          </Link>
+          </Link> */}
         </div>
         <Nav items={siteConfig.header.nav.links} className="hidden md:block" />
         <div className="flex items-center justify-end space-x-4 md:w-[200px]">
