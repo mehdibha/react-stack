@@ -40,5 +40,5 @@ export function useActiveItem(itemIds: (string | undefined)[]) {
     };
   }, [itemIds]);
 
-  return { activeItem: activeId, setActiveItem: setActiveId};
+  return { activeItem: activeId, setActiveItem: setActiveId };
 }

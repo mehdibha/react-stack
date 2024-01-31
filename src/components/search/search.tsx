@@ -1,12 +1,10 @@
 import React from "react";
-import { FileIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   CommandDialog,
   CommandEmpty,
   CommandGroup,
   CommandInput,
-  CommandItem,
   CommandList,
 } from "@/components/ui/command";
 import { cn } from "@/utils/classes";
@@ -24,7 +22,7 @@ export const Search = (props: SearchProps) => {
       <Button
         variant="outline"
         className={cn(
-          "relative h-8 w-32 justify-start w-full bg-card text-sm font-normal text-muted-foreground",
+          "relative h-8 w-full justify-start bg-card text-sm font-normal text-muted-foreground",
           className
         )}
         onClick={() => setOpen(true)}

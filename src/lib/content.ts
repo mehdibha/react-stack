@@ -9,7 +9,7 @@ function parseMDXFile(fileContent: string) {
   return { metadata: vfile.data.matter ?? {}, content: vfile.toString() };
 }
 
-function readMDXFile(filePath) {
+function readMDXFile(filePath: string) {
   const rawContent = fs.readFileSync(filePath, "utf-8");
   return parseMDXFile(rawContent);
 }

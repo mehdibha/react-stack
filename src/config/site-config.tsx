@@ -37,9 +37,7 @@ export const siteConfig = {
   },
   header: {
     nav: {
-      links: [
-        { href: "/front-end", label: "Front-end" },
-      ],
+      links: [{ href: "/front-end", label: "Front-end" }],
     },
     cta: {
       primary: {

@@ -12,7 +12,6 @@ export const ThemeToggle = () => {
 
   React.useEffect(() => {
     setMounted(true);
-    console.log('yow')
   }, []);
 
   if (!mounted) return null;

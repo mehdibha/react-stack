@@ -1,9 +1,7 @@
-import React from "react"
+import React from "react";
 
-export const useUpdateUrlWithoutNavigation = (
-  url: string
-) => {
+export const useUpdateUrlWithoutNavigation = (url: string) => {
   React.useEffect(() => {
-    window.history.replaceState(null, "", url)
-  }, [url])
-}
+    window.history.replaceState(null, "", url);
+  }, [url]);
+};

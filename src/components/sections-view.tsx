@@ -12,7 +12,7 @@ interface SectionsViewProps {
 }
 
 export const SectionsView = (props: SectionsViewProps) => {
-  const { sections, currentSectionId } = props;
+  const { sections } = props;
 
   // const sectionRef = React.useRef<HTMLElement>(null);
 
@@ -21,7 +21,7 @@ export const SectionsView = (props: SectionsViewProps) => {
   // }, [sections]);
 
   return (
-    <main className="prose prose-quoteless prose-neutral dark:prose-invert prose-lead:leading-none max-w-full">
+    <main className="prose-quoteless prose prose-neutral max-w-full dark:prose-invert prose-lead:leading-none">
       {sections.map((section) => (
         <section
           key={section.id}

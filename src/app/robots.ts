@@ -4,10 +4,9 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: "*",
-      allow: "/",
-      disallow: "/account/",
+      allow: "*",
     },
 
-    sitemap: "https://vapi.tn/sitemap.xml",
+    sitemap: "https://reactstack.dev/sitemap.xml",
   };
 }
